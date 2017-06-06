@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         textView.layer.cornerRadius = 5
         
         NotificationCenter.default.addObserver(self, selector: #selector(updateTexView(notification:)), name: Notification.Name.UIKeyboardWillChangeFrame , object: nil)
-        
         NotificationCenter.default.addObserver(self, selector: #selector(updateTexView(notification:)), name: Notification.Name.UIKeyboardWillHide , object: nil)
     }
 
@@ -53,7 +52,6 @@ class ViewController: UIViewController {
             textView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: keyboardframe.height, right: 0)
             textView.scrollIndicatorInsets = textView.contentInset
         }
-        
         textView.scrollRangeToVisible(textView.selectedRange)
         
     }
@@ -62,11 +60,13 @@ class ViewController: UIViewController {
 extension ViewController : UITextViewDelegate {
 
     func textViewDidBeginEditing(_ textView: UITextView) {
+        
         textView.backgroundColor = UIColor.white
         textView.textColor = UIColor.black
     }
     
     func textViewDidEndEditing(_ textView: UITextView) {
+        
         textView.backgroundColor = UIColor.init(red: 51/255, green: 51/255, blue: 51/255, alpha: 1)
         textView.textColor = UIColor.yellow
         
