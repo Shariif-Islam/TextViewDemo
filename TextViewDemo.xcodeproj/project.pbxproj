@@ -96,6 +96,7 @@
 				TargetAttributes = {
 					12403FB31EE54D880096F634 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9NGTNE5FRE;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -260,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NGTNE5FRE;
 				INFOPLIST_FILE = TextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shariif..TextViewDemo;
@@ -272,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9NGTNE5FRE;
 				INFOPLIST_FILE = TextViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shariif..TextViewDemo;
